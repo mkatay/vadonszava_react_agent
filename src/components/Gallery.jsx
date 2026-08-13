@@ -6,7 +6,7 @@ const galleryImages = [
   'images/gallery/gallery03.jpg',
   'images/gallery/gallery04.jpg',
   'images/gallery/gallery05.jpg',
-]
+].map((path) => `${import.meta.env.BASE_URL}${path}`);
 
 export const Gallery = () => {
   return (
