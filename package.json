@@ -3,7 +3,6 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://mkatay.github.io/vadonszava_react_agent",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
