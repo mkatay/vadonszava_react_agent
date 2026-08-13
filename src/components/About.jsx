@@ -4,7 +4,7 @@ export const About = () => {
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="grid md:grid-cols-2 gap-16 items-center">
           <div>
-            <img src="/images/profilkep.png" alt="A blogger" className="rounded-2xl shadow-2xl w-full h-auto object-cover aspect-square" />
+            <img src="images/profilkep.png" alt="A blogger" className="rounded-2xl shadow-2xl w-full h-auto object-cover aspect-square" />
           </div>
           <div>
             <div>

@@ -1,9 +1,9 @@
 import data from '../data.json'
 
 const trailImages = {
-  1: '/images/istallosko.jpg',
-  2: '/images/kekesteto.jpg',
-  3: '/images/nagymilic.jpg',
+  1: 'images/istallosko.jpg',
+  2: 'images/kekesteto.jpg',
+  3: 'images/nagymilic.jpg',
 }
 
 const levelClass = {

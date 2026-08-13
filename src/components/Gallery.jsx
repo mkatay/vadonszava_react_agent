@@ -1,11 +1,11 @@
 import data from '../data.json'
 
 const galleryImages = [
-  '/images/gallery/gallery01.jpg',
-  '/images/gallery/gallery02.jpg',
-  '/images/gallery/gallery03.jpg',
-  '/images/gallery/gallery04.jpg',
-  '/images/gallery/gallery05.jpg',
+  'images/gallery/gallery01.jpg',
+  'images/gallery/gallery02.jpg',
+  'images/gallery/gallery03.jpg',
+  'images/gallery/gallery04.jpg',
+  'images/gallery/gallery05.jpg',
 ]
 
 export const Gallery = () => {

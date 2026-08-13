@@ -15,7 +15,7 @@ const benefitIcons = [
 export const Home = () => {
   return (
     <>
-      <section id="kezdolap" className="relative h-screen flex items-center justify-center bg-cover bg-center" style={{ backgroundImage: "url('/images/banner.jpg')" }}>
+      <section id="kezdolap" className="relative h-screen flex items-center justify-center bg-cover bg-center" style={{ backgroundImage: "url('images/banner.jpg')" }}>
         <div className="absolute inset-0 bg-black/50" />
         <div className="z-10 text-center px-6 max-w-5xl">
           <h1 className="text-5xl font-bold text-white mb-6 leading-tight tracking-tight">
