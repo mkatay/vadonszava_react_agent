@@ -1,7 +1,7 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { RouterProvider } from 'react-router/dom'
-import { createBrowserRouter } from 'react-router'
+import { createHashRouter } from 'react-router'
 import App from './App'
 import { Home } from './components/Home'
 import { TrailList } from './components/TrailList'
@@ -10,7 +10,7 @@ import { Gallery } from './components/Gallery'
 import { Equipment } from './components/Equipment'
 import './index.css'
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: '/',
     Component: App,
