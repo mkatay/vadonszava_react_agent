@@ -1,0 +1,28 @@
+
+{
+  "navigation": [
+    { "label": "Kezdőlap" },
+    { "label": "Útvonalak" },
+    { "label": "Felszerelés" },
+    { "label": "Galéria" }
+  ],
+  "benefits": [
+    { "icon": "", "title": "Mentális feltöltődés", "text": "A fák között a stressz szintje bizonyítottan csökken. Csend, nyugalom és tiszta gondolatok." },
+    { "icon": "", "title": "Fizikai erőnlét", "text": "Erősíti a szívet, a lábakat és növeli az állóképességet, miközben észre sem veszed a megerőltetést." },
+    { "icon": "", "title": "Új felfedezések", "text": "Rejtett vízesések, lélegzetelállító panorámák és olyan helyek, ahová autóval sosem jutnál el." }
+  ],
+  "routes": [
+    { "id": 1, "location": "Istállós-kő", "difficulty": "Nehéz", "title": "Pillantás a múltba a Szalajka-völgy körül", "description": "A Bükk-hegység jellegzetes szeletét járjuk be a népszerű szurdokvölgyből a fennsíkig.", "durationMinutes": 300, "distanceKm": 15.9, "ascentM": 682, "imageTone": "from-emerald-950 via-emerald-700 to-amber-300" },
+    { "id": 2, "location": "Kékes-tető", "difficulty": "Könnyű", "title": "A Kékes északi oldalának vadonjában", "description": "Könnyed kiránduláson fedezzük fel a hegy északi oldalának változatos erdeit és látnivalóit.", "durationMinutes": 210, "distanceKm": 7, "ascentM": 133, "imageTone": "from-sky-950 via-sky-600 to-slate-200" },
+    { "id": 3, "location": "Nagy-Milic", "difficulty": "Nehéz", "title": "A Milic vadregényes, keleti peremén", "description": "Sziklákkal tarkított erdők, kényelmes dózerutak és a határsáv különleges hangulata vár.", "durationMinutes": 240, "distanceKm": 12.5, "ascentM": 540, "imageTone": "from-stone-950 via-amber-800 to-lime-300" }
+  ],
+  "equipment": [
+    { "icon": "", "name": "Túrabakancs", "detail": "Vízálló, bokatartó." },
+    { "icon": "", "name": "Réteges ruha", "detail": "Műszálas, nem pamut." },
+    { "icon": "", "name": "Navigáció", "detail": "Offline térkép, GPS." },
+    { "icon": "", "name": "Elsősegély", "detail": "Kötszer, fájdalomcsillapító." },
+    { "icon": "", "name": "Víz és étel", "detail": "Több, mint amennyit tervezel." }
+  ],
+  "gallery": ["Hajnali gerinc", "Erdei ösvény", "Kőszikla", "Tengerszem", "Napsütötte völgy"]
+}
+
