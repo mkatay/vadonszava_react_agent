@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import { NavLink } from 'react-router'
 import data from '../data.json'
+import { MountainSnow } from 'lucide-react'
+
 
 const routeMap = {
   Kezdőlap: '/',
@@ -40,9 +42,7 @@ export const MyNavbar = ({ isDark, setIsDark }) => {
           <div className="flex justify-between h-16">
             <div className="flex items-center">
               <NavLink to="/" end className="flex items-center gap-2 text-2xl font-bold text-tura-green-700 dark:text-tura-green-100">
-                <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 21l-8-11.5a1 1 0 01.8-1.5H7l2-4 2 4h2l2-4 2 4h1.2a1 1 0 01.8 1.5L12 21z" />
-                </svg>
+                <MountainSnow />
                 <span>Vadon<span className="text-tura-brown-800 dark:text-tura-brown-200">Szava</span></span>
               </NavLink>
             </div>
