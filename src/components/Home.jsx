@@ -1,3 +1,4 @@
+import { useNavigate } from 'react-router'
 import data from '../data.json'
 
 const benefitIcons = [
@@ -13,6 +14,7 @@ const benefitIcons = [
 ]
 
 export const Home = () => {
+  const navigate=useNavigate()
   return (
     <>
       <section id="kezdolap" className="relative h-screen flex items-center justify-center bg-cover bg-center" style={{ backgroundImage: "url('images/banner.jpg')" }}>
@@ -26,12 +28,14 @@ export const Home = () => {
             Fedezd fel a vadont, szívd be a friss hegyi levegőt, és hagyd magad mögött a mindennapok zaját. A túrázás nem sport, hanem visszatérés a gyökereinkhez.
           </p>
           <div className="flex flex-col sm:flex-row gap-6 justify-center">
-            <a href="#utvonalak" className="px-10 py-4 bg-tura-green-600 text-white font-semibold rounded-lg text-lg shadow-lg hover:bg-tura-green-700 transition duration-300">
+            <button onClick={()=>navigate('/traillist')}
+              className="px-10 py-4 bg-tura-green-600 text-white font-semibold rounded-lg text-lg shadow-lg hover:bg-tura-green-700 transition duration-300">
               Fedezz fel útvonalakat
-            </a>
-            <a href="#felszereles" className="px-10 py-4 bg-white/10 text-white border border-white/30 font-semibold rounded-lg text-lg backdrop-blur-sm">
+            </button>
+            <button onClick={()=>navigate('/equipment')}
+              className="px-10 py-4 bg-white/10 text-white border border-white/30 font-semibold rounded-lg text-lg backdrop-blur-sm">
               Mire van szükséged?
-            </a>
+            </button>
           </div>
         </div>
       </section>
